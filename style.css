@@ -746,7 +746,7 @@ p {
 }
 
 .circlebox2 {
-    width: 100%;
+    width: 101%;
     height: 20%;
     display: flex;
     justify-content: space-between;

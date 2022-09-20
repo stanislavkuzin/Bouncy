@@ -682,3 +682,401 @@
 
 /* Представленные проекты */
 
+@media (max-width:1000px) {
+    #projtext {
+        width: 100%;
+        height: 25%;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+
+    #featuredproject {
+        font-size: 35px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #textfeature {
+        font-size: 20px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #fpprojectsbox {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        top: 7%;
+    }
+
+    #fpimgbox {
+        width: 100%;
+        height: 400px;
+    }
+
+    #fpimg {
+        width: 34%;
+        height: 400px;
+    }
+    #fpimg2 {
+        width: 33%;
+        height: 400px;
+    }    
+    #fpimg3 {
+        width: 33%;
+        height: 400px;
+    } 
+    .filterimg span {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    #fpbottomimg {
+        width: 100%;
+        height: 120px;
+    }
+    #submittext {
+        font-size: 17px;
+    }
+    #submit {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    #projtext {
+        width: 100%;
+        height: 25%;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    #featuredproject {
+        font-size: 25px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #textfeature {
+        font-size: 13px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #fpprojectsbox {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        top: 20px;
+    }
+
+    #fpimgbox {
+        width: 80%;
+        height: 450px;
+        position: relative;
+        left: 10%;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #fpimg {
+        width: 100%;
+        height: 250px;
+    }
+    #fpimg:active{
+        filter: blur(10px);
+        transition: 10ms;
+    }
+    #fpimg2 {
+        width: 50%;
+        height: 200px;
+        filter: grayscale(0);
+    }    
+    #fpimg3 {
+        width: 50%;
+        height: 200px;
+        filter: grayscale(0);
+    } 
+    .filterimg {
+        display: none;
+    }
+    #fpbottomimg {
+        width: 80%;
+        height: 100px;
+        position: relative;
+        left: 10%;
+        top: 0;
+    }
+    #submittext {
+        font-size: 11px;
+    }
+    #submit {
+        width: 80px;
+        height: 25px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 600px) {
+    #projtext {
+        width: 100%;
+        height: 15%;
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+
+    #featuredproject {
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #textfeature {
+        font-size: 12px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #fpprojectsbox {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        top: 20px;
+    }
+
+    #fpimgbox {
+        width: 80%;
+        height: 540px;
+        position: relative;
+        left: 10%;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #fpimg {
+        width: 100%;
+        height: 180px;
+    }
+    #fpimg2 {
+        width: 100%;
+        height: 180px;
+    }  
+    #fpimg2:hover {
+        width: 100%;
+        transition: 1s;
+        background-size: cover; 
+        filter: grayscale(0);
+    }  
+    #fpimg2:active{
+        filter: blur(10px);
+        transition: 10ms;
+    }
+    #fpimg3 {
+        width: 100%;
+        height: 180px;
+    } 
+    #fpimg3:hover {
+        width: 100%;
+        transition: 1s;
+        background-size: cover;
+        filter: grayscale(0); 
+    }
+    #fpimg3:active{
+        filter: blur(10px);
+        transition: 10ms;
+    }
+    .filterimg span {
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+    #fpbottomimg {
+        width: 80%;
+        height: 80px;
+        position: relative;
+        left: 10%;
+        top: 0;
+    }
+    #submittext {
+        font-size: 9px;
+    }
+    #submit {
+        width: 80px;
+        height: 25px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 500px) {
+    #projtext {
+        width: 100%;
+        height: 15%;
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+
+    #featuredproject {
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #textfeature {
+        font-size: 12px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #fpprojectsbox {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        top: 20px;
+    }
+
+    #fpimgbox {
+        width: 100%;
+        height: 570px;
+        position: relative;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #fpimg {
+        width: 100%;
+        height: 190px;
+    }
+    #fpimg2 {
+        width: 100%;
+        height: 190px;
+    }  
+    #fpimg2:hover {
+        width: 100%;
+        transition: 1s;
+        background-size: cover; 
+        filter: grayscale(0);
+    }  
+    #fpimg2:active{
+        filter: blur(10px);
+        transition: 10ms;
+    }
+    #fpimg3 {
+        width: 100%;
+        height: 190px;
+    } 
+    #fpimg3:hover {
+        width: 100%;
+        transition: 1s;
+        background-size: cover;
+        filter: grayscale(0); 
+    }
+    #fpimg3:active{
+        filter: blur(10px);
+        transition: 10ms;
+    }
+    .filterimg span {
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+    #fpbottomimg {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #submittext {
+        font-size: 9px;
+    }
+    #submit {
+        width: 80px;
+        height: 25px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #featuredproject {
+        font-size: 17px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #textfeature {
+        font-size: 10px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #fpimgbox {
+        width: 100%;
+        height: 480px;
+        position: relative;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #fpimg {
+        width: 100%;
+        height: 160px;
+    }
+    #fpimg2 {
+        width: 100%;
+        height: 160px;
+    }  
+    #fpimg3 {
+        width: 100%;
+        height: 160px;
+    } 
+
+    #fpbottomimg {
+        width: 100%;
+        height: 60px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #submittext {
+        font-size: 8px;
+        text-align: center;
+    }
+    #submit {
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+        margin-right: 7px;
+    }
+}
+@media (max-width: 280px) {
+    #featuredproject {
+        font-size: 15px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+
+    #textfeature {
+        font-size: 9px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+}

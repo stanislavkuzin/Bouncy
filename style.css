@@ -117,7 +117,7 @@ a:hover {
     align-items: flex-end;
     justify-content: center;
     font-size: 7vw;
-    font-family: arial black;
+    font-family: "NotoSansJP-Bold";
     font-weight: 700;
     letter-spacing: 7px;
     color: black; 
@@ -252,7 +252,7 @@ section {
     width: 11%;
     height: 6%;
     font-size: 2vw;
-    font-family: arial black;
+    font-family: "NotoSansJP-Bold";
     font-weight: 700;
     position: relative;
     left: 7%;

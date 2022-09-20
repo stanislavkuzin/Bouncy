@@ -406,10 +406,10 @@ section {
 }
 
 #like {
-    background-color: #24a977;
+    background-color: #666666;
 }
 #like:hover {
-    background-color: #666666;
+    background-color: #24a977;
 }
 
 #creative {
@@ -647,7 +647,7 @@ p {
 }
 
 .inbox1 {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     gap: 8%;
@@ -700,12 +700,7 @@ p {
     align-items: center;
     transition: 0.1s;
 }
-#btaqua {
-    background-color: #24a977;
-}
-#btaqua:hover {
-    background-color: #666666;
-}
+
 .buttonos:hover {
     background-color: #24a977;
     transition: 0.2s;
@@ -735,21 +730,23 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    gap: 1px;
 }
 
 .circle {
     font-family: "OpenSans-Light";
-    font-size: 1.5vw;
+    font-size: 19px;
     font-weight: 700;
     color: #504f4f;
     letter-spacing: 2px;
 }
 
 .circlebox2 {
-    width: 101%;
+    width: 100%;
     height: 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
 .circlename {
@@ -765,7 +762,7 @@ p {
 }
 
 .proc {
-    font-size: 0.8vw;
+    font-size: 12px;
     font-weight: 700;
     font-family: "NotoSansJP-Bold";
 }
@@ -1328,6 +1325,11 @@ input:active {
 #butbot:active {
     scale: 1.1;
     transition: 100ms;
+}
+
+.kruh {
+    width: 160px;
+    height: 160px;
 }
 
 

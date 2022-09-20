@@ -165,6 +165,10 @@
         line-height: 1.5;
         margin-top: 25px;
     }
+    #buttonbottom {
+        width: 32px;
+        height: 32px;
+    }
 }
 @media (max-width:400px) {
     #hdtext {
@@ -1078,5 +1082,518 @@
         margin-top: 30px;
         line-height: 1.5;
         width: 100%;
+    }
+}
+
+/* Нашы сервисы */
+
+@media (max-width: 1100px) {
+    #ostext {
+        width: 100%;
+        height: 25%;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 35px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 20px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    .circlename {
+        width: 33%;
+        height: 100%;
+        font-size: 2vw;
+    }
+    .circlebox2 {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1px;
+        position: relative;
+        left: 7px;
+        top: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    #ostext {
+        width: 100%;
+        height: 25%;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 35px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 20px;
+        margin-top: 30px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #servicebox {
+        width: 98%;
+        height: 40%;
+        position: relative;
+        left: 1%;
+        top: 30px;
+        display: flex;
+    }
+
+    #graphic {
+        font-family: "NotoSansJP-Regular";
+        font-size: 20px;
+        color: #504f4f;
+        font-weight: 700;
+    }
+    
+    #largetext {
+        font-size: 15.5px;
+        color: #7c7878;
+        line-height: 1.5;
+    }
+
+    #smalltext {
+        font-size: 13.5px;
+        color: #7c7878;
+        line-height: 1.5;
+    }
+
+    .kruh {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 850px) {
+    #ostext {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 18px;
+        margin-top: 10px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #servicebox {
+        width: 98%;
+        height: 540px;
+        position: relative;
+        left: 1%;
+        top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #textbutton {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #graphic {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    #largetext {
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #smalltext {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .kruh {
+        width: 160px;
+        height: 160px;
+    }
+
+    #line {
+        width: 2100px;
+        height: 20px;
+        position: relative;
+        top: 30px;
+    }
+
+    .inbox1 {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        gap: 8%;
+        flex-direction: column;
+
+    }    
+
+    .inbox2 {
+        width: 100%;
+        height: 210px;
+        display: block;
+    }
+
+    .circlebox1 {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .circlebox2 {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        gap: 1px;
+        position: relative;
+        left: 1px;
+        top: 0;
+    }
+
+    .circlename {
+        width: 160px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    #buttonleft {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .buttonos {
+        width: 70px;
+        height: 70px;
+    }
+
+    #icon4 {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+@media (max-width: 600px) {
+    #ostext {
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 25px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    .buttonos {
+        width: 65px;
+        height: 65px;
+    }
+
+    #icon4 {
+        width: 32px;
+        height: 32px;
+    }
+    #graphic {
+        width: 100%;
+        font-size: 21px;
+        text-align: center;
+    }
+    .kruh {
+        width: 160px;
+        height: 160px;
+    }
+}    
+
+@media (max-width: 500px) {
+    #ostext {
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 22px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    .buttonos {
+        width: 65px;
+        height: 65px;
+    }
+
+    #icon4 {
+        width: 32px;
+        height: 32px;
+    }
+    #graphic {
+        width: 100%;
+        font-size: 19px;
+        text-align: center;
+    }
+    #largetext {
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #smalltext {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .buttonos {
+        width: 55px;
+        height: 55px;
+    }
+
+    #icon4 {
+        width: 29px;
+        height: 29px;
+    }
+    .inbox1 {
+        width: 100%;
+        height: 290px;
+        display: flex;
+        gap: 8%;
+        flex-direction: column;
+    } 
+
+    #ourservices {
+        width: 100%;
+        height: 950px;
+    }
+    .inbox2 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+    }
+    #servicebox {
+        width: 98%;
+        height: 740px;
+        position: relative;
+        left: 1%;
+        top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .circlebox1 {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .circlebox2 {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    #line {
+        width: 2100px;
+        height: 20px;
+        position: relative;
+        top: 70px;
+    }
+}    
+
+@media (max-width: 400px) {
+    #ostext {
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    #graphic {
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+    }
+    #largetext {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #smalltext {
+        width: 100%;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .inbox1 {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        gap: 8%;
+        flex-direction: column;
+    } 
+    #textbutton {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttonos {
+        width: 45px;
+        height: 45px;
+    }
+
+    #icon4 {
+        width: 23px;
+        height: 23px;
+    }
+}    
+
+@media (max-width: 350px) {
+    #ostext {
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    #osh2 {
+        font-size: 18px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    #ostextin {
+        font-size: 9px;
+        margin-top: 10px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    #graphic {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    #largetext {
+        width: 100%;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #smalltext {
+        width: 100%;
+        font-size: 9px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #buttonleft {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 12px;
+    }
+    #textbutton {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttonos {
+        width: 40px;
+        height: 40px;
+    }
+
+    #icon4 {
+        width: 21px;
+        height: 21px;
+    }
+    .circlebox1 {
+        margin-left: 30px;
+    }
+    .circlename {
+        font-size: 15px;
+    }
+    .circlebox2 {
+        margin-left: -40px;
     }
 }

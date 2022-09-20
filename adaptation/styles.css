@@ -55,6 +55,16 @@
         bottom: 5%;
         z-index: 90;
     }
+    #buttonbottomblock {
+        position: absolute;
+        bottom: 12%;
+    }
+    
+    #buttonbottom {
+        width: 38px;
+        height: 38px;
+        transition: 100ms;
+    }
 }
 @media (max-width:800px) {
     #menulogo {
@@ -143,17 +153,27 @@
         text-align: center;
         position: relative;
         left: 1%;
-        top: 40%;
+        top: 37%;
     }
     #hdh2 {
-        font-size: 33px;
-        letter-spacing: 5px;
+        font-size: 31px;
+        letter-spacing: 3px;
         font-weight: 100;
     }
     #hdintext {
-        font-size: 20px;
+        font-size: 15px;
         line-height: 1.5;
         margin-top: 25px;
+    }
+}
+@media (max-width:400px) {
+    #hdtext {
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 42%;
     }
 }
 @media (max-width:300px) {
@@ -175,15 +195,15 @@
         text-align: center;
         position: relative;
         left: 0;
-        top: 45%;
+        top: 42%;
     }
     #hdh2 {
-        font-size: 20px;
-        letter-spacing: 5px;
+        font-size: 21px;
+        letter-spacing: 3px;
         font-weight: 100;
     }
     #hdintext {
-        font-size: 15px;
+        font-size: 12px;
         line-height: 1.5;
         margin-top: 25px;
     }
@@ -201,23 +221,27 @@
         font-size: 14vw;
     }
     #loadtext {
-        font-size: 14px;
+        font-size: 12px;
     }
     #loadline {
-        width: 80%;
-        height: 4%;
+        width: 70%;
+        height: 4.5%;
+        outline: none;
+        border: 2px rgba(255, 255, 255, 0.805) solid;
     }
 }
 @media (max-width:800px) {
     #loadtext {
-        font-size: 15px;
+        font-size: 11px;
     }
     #bouncyload {
         font-size: 13vw;
     }
     #loadline {
-        width: 80%;
+        width: 70%;
         height: 5%;
+        outline: none;
+        border: 2px rgba(255, 255, 255, 0.805) solid;
     }
 }
 @media (max-width:600px) {
@@ -230,11 +254,13 @@
     #loadline {
         width: 85%;
         height: 4.5%;
+        outline: none;
+        border: 2px rgba(255, 255, 255, 0.805) solid;
     }
 }
 @media (max-width:400px) {
     #loadtext {
-        font-size: 9px;
+        font-size: 8px;
     }
     #bouncyload {
         font-size: 13vw;
@@ -242,5 +268,8 @@
     #loadline {
         width: 80%;
         height: 4%;
+        outline: none;
+        border: 2px rgba(255, 255, 255, 0.805) solid;
     }
+
 }

@@ -57,7 +57,7 @@
     }
     #buttonbottomblock {
         position: absolute;
-        bottom: 12%;
+        bottom: 8%;
     }
     
     #buttonbottom {
@@ -273,3 +273,409 @@
     }
 
 }
+
+/* Подробности о Bouncy */
+
+@media (max-width:1000px) {
+#detailstext {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 150px;
+}
+
+#dateilsbouncy {
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+#textdateils {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+#boxbutton{
+    width: 40%;
+    height: 15%;
+    position: relative;
+    left: 30%;
+    top: 100px;
+    gap: 20px;
+}
+
+.circlebutton {
+    width: 90px;
+    height: 90px;
+}
+
+#creative {
+    width: 40%;
+    height: 10%;
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+    top: 100px;
+    text-align: center;
+}
+
+#dsintext {
+    width: 98%;
+    height: 25%;
+    position: relative;
+    left: 1%;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#textleft {
+    width: 40%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 2.5;
+    text-align: center;
+}
+
+#textright {
+    width: 60%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 2.5;
+    text-align: center;
+}
+}
+
+@media (max-width:800px) {
+    #detailstext {
+        width: 100%;
+        height: 18%;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 70px;
+    }
+    
+    #dateilsbouncy {
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    
+    #textdateils {
+        font-size: 18px;
+        margin-top: 15px;
+        line-height: 1.5;
+        width: 100%;
+    }
+    
+    #boxbutton{
+        width: 40%;
+        height: 15%;
+        position: relative;
+        left: 30%;
+        top: 40px;
+        gap: 20px;
+    }
+    
+    .circlebutton {
+        width: 80px;
+        height: 80px;
+    }
+    
+    #creative {
+        width: 40%;
+        height: 7%;
+        font-size: 30px;
+        position: relative;
+        left: 30%;
+        top: 4%;
+        text-align: center;
+    }
+    
+    #dsintext {
+        width: 98%;
+        height: 50%;
+        position: relative;
+        left: 1%;
+        top: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #textleft {
+        width: 100%;
+        height: 45%;
+        font-size: 20px;
+        line-height: 2;
+        text-align: center;
+    }
+    
+    #textright {
+        width: 100%;
+        height: 50%;
+        font-size: 17px;
+        line-height: 2.5;
+        text-align: center;
+    }
+    }
+
+    @media (max-width:600px) {
+        #detailstext {
+            width: 100%;
+            height: 11%;
+            text-align: center;
+            position: relative;
+            left: 0;
+            top: 10%;
+        }
+        
+        #dateilsbouncy {
+            font-size: 20px;
+            letter-spacing: 5px;
+            font-weight: 700;
+        }
+        
+        #textdateils {
+            font-size: 13px;
+            margin-top: 15px;
+            line-height: 1.5;
+            width: 100%;
+        }
+        
+        #boxbutton{
+            width: 40%;
+            height: 12%;
+            position: relative;
+            left: 30%;
+            top: 80px;
+            gap: 20px;
+        }
+        
+        .circlebutton {
+            width: 50px;
+            height: 50px;
+        }
+
+        .iconcircle {
+            width: 30px;
+            height: 30px;
+        }
+        
+        #creative {
+            width: 40%;
+            height: 5%;
+            font-size: 20px;
+            position: relative;
+            left: 30%;
+            top: 12%;
+            text-align: center;
+        }
+        
+        #dsintext {
+            width: 98%;
+            height: 45%;
+            position: relative;
+            left: 1%;
+            top: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #textleft {
+            width: 100%;
+            height: 30%;
+            font-size: 18px;
+            line-height: 2;
+            text-align: center;
+        }
+        
+        #textright {
+            width: 100%;
+            height: 50%;
+            font-size: 13px;
+            line-height: 2.5;
+            text-align: center;
+        }
+        }
+
+        @media (max-width:430px) {
+            #detailstext {
+                width: 100%;
+                height: 11%;
+                text-align: center;
+                position: relative;
+                left: 0;
+                top: 100px;
+            }
+            
+            #dateilsbouncy {
+                font-size: 16px;
+                letter-spacing: 5px;
+                font-weight: 700;
+            }
+            
+            #textdateils {
+                font-size: 11px;
+                margin-top: 15px;
+                line-height: 1.5;
+                width: 100%;
+            }
+
+            #boxbutton{
+                width: 40%;
+                height: 12%;
+                position: relative;
+                left: 30%;
+                top: 100px;
+                gap: 20px;
+            }
+
+            #creative {
+                width: 40%;
+                height: 5%;
+                font-size: 16px;
+                position: relative;
+                left: 30%;
+                top: 160px;
+                text-align: center;
+            }
+            #dsintext {
+                width: 98%;
+                height: 250px;
+                position: relative;
+                left: 1%;
+                top: 170px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            #textleft {
+                width: 100%;
+                height: 30%;
+                font-size: 13px;
+                line-height: 2;
+                text-align: center;
+            }
+            
+            #textright {
+                width: 100%;
+                height: 50%;
+                font-size: 11px;
+                line-height: 2.5;
+                text-align: center;
+            }
+        }
+@media (max-width:365px) {
+    #textright {
+        width: 60%;
+        height: 50%;
+        font-size: 11px;
+        line-height: 2;
+        text-align: center;
+    }
+
+    #creative {
+        width: 40%;
+        height: 5%;
+        font-size: 16px;
+        position: relative;
+        left: 30%;
+        top: 130px;
+        text-align: center;
+    }
+    #dsintext {
+        width: 98%;
+        height: 250px;
+        position: relative;
+        left: 1%;
+        top: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}   
+
+@media (max-width:340px) {
+    #textright {
+        width: 70%;
+        height: 50%;
+        font-size: 10px;
+        line-height: 2;
+        text-align: center;
+    }
+
+    #textdateils {
+        font-size: 9px;
+        margin-top: 15px;
+        line-height: 1.5;
+        width: 100%;
+    }
+}
+
+@media (max-width:280px) {
+    #detailstext {
+        width: 100%;
+        height: 11%;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 100px;
+    }
+    
+    #dateilsbouncy {
+        font-size: 14px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
+    
+    #textdateils {
+        font-size: 9px;
+        margin-top: 15px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    #textright {
+        width: 70%;
+        height: 50%;
+        font-size: 10px;
+        line-height: 2;
+        text-align: center;
+    }
+
+    #boxbutton{
+        width: 40%;
+        height: 12%;
+        position: relative;
+        left: 30%;
+        top: 100px;
+        gap: 20px;
+    }
+
+    #creative {
+        width: 40%;
+        height: 5%;
+        font-size: 15px;
+        position: relative;
+        left: 30%;
+        top: 120px;
+        text-align: center;
+    }
+
+    #dsintext {
+        position: relative;
+        left: 1%;
+        top: 120px;
+    }
+}   

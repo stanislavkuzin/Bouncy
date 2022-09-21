@@ -2206,6 +2206,10 @@
         position: relative;
         top: 120px;
     }
+    input {
+        width: 8px;
+        height: 8px;
+    }   
 }
 
 @media (max-width:350px) {
@@ -2240,10 +2244,68 @@
         position: relative;
         top: 120px;
     }
-    input {
-        width: 10px;
-        height: 10px;
-    }   
+}
+
+/* Контакт */
+
+@media (max-width:1200px) {
+    #footerbt {
+        width: 100%;
+        height: 150px;
+    }
+    #contact {
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1000px) {
+    #footerbt {
+        width: 100%;
+        height: 110px;
+    }
+    #bottomtext {
+        margin-top: -0.5%;
+        font-size: 17px;
+    }
+    #contact {
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    #footerbt {
+        width: 100%;
+        height: 90px;
+    }
+    #bottomtext {
+        margin-top: -0.5%;
+        font-size: 15px;
+    }
+    #contact {
+        width: 100px;
+        height: 20px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:350px) {
+    #footerbt {
+        width: 100%;
+        height: 70px;
+    }
+    #bottomtext {
+        margin-top: -0.5%;
+        font-size: 12px;
+    }
+    #contact {
+        width: 80px;
+        height: 15px;
+        font-size: 10px;
+    }
 }
 
 

@@ -1348,8 +1348,6 @@ input:active {
 #svgmin {
     width: 270px;
     height: 150px;
-    background-color: white;
-    margin-left: 1px;
     display: none;
 }
 .textsvgmin {

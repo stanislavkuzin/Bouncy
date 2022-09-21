@@ -175,7 +175,7 @@
         top: 37%;
     }
     #hdh2 {
-        font-size: 31px;
+        font-size: 33px;
         letter-spacing: 3px;
         font-weight: 100;
     }
@@ -2095,7 +2095,7 @@
         text-align: center;
         position: relative;
         left: 1%;
-        top: 10px;
+        top: 120px;
     }
     #teamman {
         width: 35%;
@@ -2132,10 +2132,11 @@
         text-align: center;
         position: relative;
         left: 0;
-        top: 140px;
+        top: 90px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        gap: 10px;
     }
     #teamman {
         width: 200px;
@@ -2158,7 +2159,7 @@
     #formradio {
         text-align: center;
         position: relative;
-        top: 160px;
+        top: 120px;
     }
     #svgman {
         width: 340px;
@@ -2190,6 +2191,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        gap: 10px;
     }
     #teamman {
         width: 200px;
@@ -2217,9 +2219,40 @@
         width: 8px;
         height: 8px;
     }   
+    #svgmin {
+        display: block;
+    }
+    #wrapscroll{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #teamman {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #man {
+        width: 190px;
+    }
+    #svgman {
+        display: none;
+    }
 }
 
 @media (max-width:350px) {
+    #commandlist {
+        width: 96%;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: 2%;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+    }
     #teamh2 {
         font-size: 18px;
         letter-spacing: 7px;
@@ -2228,9 +2261,6 @@
         font-size: 9px;
         line-height: 1.5;
         margin-top: 10px;
-    }
-    #svgman {
-        display: none;
     }
     .infoman {
         width: 100%;
@@ -2249,11 +2279,10 @@
     }
     #formradio {
         position: relative;
-        top: 110px;
+        top: 40px;
     }
     #svgmin {
         display: block;
-        margin-right: -10px;
     }
     #wrapscroll{
         display: flex;

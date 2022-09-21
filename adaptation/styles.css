@@ -1937,3 +1937,313 @@
         font-size: 9px;
     }
 }
+
+/* Команда */
+
+@media (max-width:1200px) {
+    #teamh2 {
+        font-size: 28px;
+        letter-spacing: 7px;
+    }
+    #teamtext {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #teamman {
+        width: 40%;
+        height: 100%;
+    }
+    #man {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #maninfo {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    #teamh2 {
+        font-size: 35px;
+        letter-spacing: 7px;
+    }
+    #teamtext {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    #teamman {
+        width: 40%;
+        height: 100%;
+    }
+    #man {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #maninfo {
+        width: 60%;
+        height: 100%;
+    }
+    #commandlist {
+        width: 80%;
+        height: 400px;
+        text-align: center;
+        position: relative;
+        left: 10%;
+        top: 20%;
+        display: flex;
+        justify-content: space-between;
+        color: #504f4f;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .textinfo {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:800px) {
+    #teamh2 {
+        font-size: 28px;
+        letter-spacing: 7px;
+    }
+    #teamtext {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #teamman {
+        width: 40%;
+        height: 100%;
+    }
+    #man {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #maninfo {
+        width: 60%;
+        height: 100%;
+    }
+    #commandlist {
+        width: 98%;
+        height: 400px;
+        text-align: center;
+        position: relative;
+        left: 1%;
+        top: 150px;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+    .textinfo {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    input {
+        width: 12px;
+        height: 12px;
+    }    
+}
+
+@media (max-width:700px) {
+    #commandlist {
+        width: 98%;
+        height: 320px;
+        text-align: center;
+        position: relative;
+        left: 1%;
+        top: 150px;
+    }
+    #teamman {
+        width: 35%;
+        height: 100%;
+    }
+    #maninfo {
+        width: 65%;
+        height: 100%;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .textinfo {
+        font-size: 11px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:700px) {
+    #commandlist {
+        width: 98%;
+        height: 320px;
+        text-align: center;
+        position: relative;
+        left: 1%;
+        top: 150px;
+    }
+    #teamman {
+        width: 35%;
+        height: 100%;
+    }
+    #maninfo {
+        width: 65%;
+        height: 100%;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .textinfo {
+        font-size: 11px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px) {
+    #teamh2 {
+        font-size: 25px;
+        letter-spacing: 7px;
+    }
+    #teamtext {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    #commandlist {
+        width: 90%;
+        height: 450px;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #teamman {
+        width: 200px;
+        height: 250px;
+    }
+    #maninfo {
+        width: 100%;
+        height: 200px;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .textinfo {
+        font-size: 11px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    #formradio {
+        text-align: center;
+        position: relative;
+        top: 160px;
+    }
+    #svgman {
+        width: 340px;
+        height: 160px;
+        margin-top: 5px;
+    }
+    #wrapscroll {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:400px) {
+    #teamh2 {
+        font-size: 22px;
+        letter-spacing: 7px;
+    }
+    #teamtext {
+        font-size: 11px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    #commandlist {
+        width: 96%;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: 2%;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #teamman {
+        width: 200px;
+        height: 250px;
+    }
+    #maninfo {
+        width: 100%;
+        height: 250px;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .textinfo {
+        font-size: 11px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    #formradio {
+        position: relative;
+        top: 120px;
+    }
+}
+
+@media (max-width:350px) {
+    #teamh2 {
+        font-size: 18px;
+        letter-spacing: 7px;
+    }
+    #teamtext {
+        font-size: 9px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    #svgman {
+        display: none;
+    }
+    .infoman {
+        width: 100%;
+        height: 180px;
+        display: block;
+    }
+    .curs {
+        letter-spacing: 1px;
+        font-size: 11px;
+    }
+    .textinfo {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    #formradio {
+        position: relative;
+        top: 120px;
+    }
+    input {
+        width: 10px;
+        height: 10px;
+    }   
+}
+
+

@@ -1139,7 +1139,7 @@ p {
 
 /* Команда */
 
-#team {
+#teamsec {
     width: 100%;
     height: 100%;
 }
@@ -1219,10 +1219,8 @@ p {
     font-size: 1.1vw;
 }
 
-#infoman {
-    width: 75%;
-    height: 7.5%;
-    margin:3% -2% 0 0;
+.infoman {
+    display: none;
 }
 
 #footerbt {
@@ -1332,5 +1330,24 @@ input:active {
     height: 160px;
 }
 
+#svgman {
+    background-color: rgb(255, 249, 249);
+    width: 340px;
+    height: 180px;
+    margin-top: 5%;
+}
+.textsvg {
+    font-family: "NotoSansJP-Light";
+    color: #7c7878;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.procent {
+    font-family: "NotoSansJP-Light";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
 
-
+  

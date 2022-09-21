@@ -809,7 +809,7 @@ p {
     transition: 50ms;
 }
 
-.line:after{
+.line:hover::after{
     content: "";
     position: absolute;
     bottom: 10px;
@@ -1219,10 +1219,6 @@ p {
     font-size: 1.1vw;
 }
 
-.infoman {
-    display: none;
-}
-
 #footerbt {
     width: 100%;
     height: 25%;
@@ -1349,5 +1345,26 @@ input:active {
     font-weight: 500;
     letter-spacing: 2px;
 }
+#svgmin {
+    width: 270px;
+    height: 150px;
+    margin-left: 1px;
+    display: none;
+}
+.textsvgmin {
+    font-family: "NotoSansJP-Light";
+    color: #7c7878;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.procentmin {
+    font-family: "NotoSansJP-Light";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
 
   

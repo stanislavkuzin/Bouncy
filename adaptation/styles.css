@@ -973,7 +973,7 @@
 @media (max-width: 500px) {
     #projtext {
         width: 100%;
-        height: 15%;
+        height: 90px;
         text-align: center;
         position: relative;
         top: 10px;
@@ -987,7 +987,7 @@
 
     #textfeature {
         font-size: 12px;
-        margin-top: 30px;
+        margin-top: 10px;
         line-height: 1.5;
         width: 100%;
     }
@@ -1073,7 +1073,7 @@
 
     #textfeature {
         font-size: 10px;
-        margin-top: 30px;
+        margin-top: 10px;
         line-height: 1.5;
         width: 100%;
     }
@@ -1408,7 +1408,7 @@
         height: 120px;
         text-align: center;
         position: relative;
-        top: 30px;
+        top: 60px;
     }
     #osh2 {
         font-size: 22px;
@@ -1459,9 +1459,9 @@
     }
     .inbox1 {
         width: 100%;
-        height: 290px;
+        height: 270px;
         display: flex;
-        gap: 8%;
+        gap: 10px;
         flex-direction: column;
     } 
 
@@ -1549,7 +1549,7 @@
     }
     .inbox1 {
         width: 100%;
-        height: 330px;
+        height: 290px;
         display: flex;
         gap: 8%;
         flex-direction: column;
@@ -2082,13 +2082,20 @@
 }
 
 @media (max-width:700px) {
+
+    #theteam {
+        width: 100%;
+        height: 70px;
+        position: relative;
+        top: 40px;
+    }
     #commandlist {
         width: 98%;
         height: 320px;
         text-align: center;
         position: relative;
         left: 1%;
-        top: 150px;
+        top: 10px;
     }
     #teamman {
         width: 35%;
@@ -2204,7 +2211,7 @@
     }
     #formradio {
         position: relative;
-        top: 120px;
+        top: 110px;
     }
     input {
         width: 8px;
@@ -2242,8 +2249,26 @@
     }
     #formradio {
         position: relative;
-        top: 120px;
+        top: 110px;
     }
+    #svgmin {
+        display: block;
+        margin-right: -10px;
+    }
+    #wrapscroll{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #teamman {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #man {
+        width: 190px;
+    }
+    
 }
 
 /* Контакт */
@@ -2307,5 +2332,6 @@
         font-size: 10px;
     }
 }
+
 
 

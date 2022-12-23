@@ -29,6 +29,10 @@ html, body {
 }
 
 body {
+    scroll-behavior: smooth;
+  }
+
+body {
     cursor: url(./img/cursor.png) 4 1, pointer;
 }
 
